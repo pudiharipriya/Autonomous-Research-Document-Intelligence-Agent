@@ -1,0 +1,107 @@
+[
+  {
+    "id": "eval_01",
+    "category": "simple_summarization",
+    "query": "Summarize the primary architecture, attention mechanism and key findings of the Transformer model.",
+    "expected_claims": ["Multi-Head Attention", "28.4 BLEU", "O(N^2) memory complexity"],
+    "requires_pdf": true
+  },
+  {
+    "id": "eval_02",
+    "category": "multi_document_comparison",
+    "query": "Compare recurrent neural network translation models with self-attention Transformer architectures.",
+    "expected_claims": ["Recurrence", "Parallelization", "Training FLOPs"],
+    "requires_pdf": false
+  },
+  {
+    "id": "eval_03",
+    "category": "research_discovery",
+    "query": "Find recent research related to efficiency improvements in vision transformers and multi-head attention.",
+    "expected_claims": ["Vision Transformer", "Linear Attention", "Swin Transformer"],
+    "requires_pdf": false
+  },
+  {
+    "id": "eval_04",
+    "category": "claim_verification",
+    "query": "Verify the claim that Transformer (big) achieved 28.4 BLEU score on WMT 2014 English-to-German task.",
+    "expected_claims": ["28.4 BLEU", "WMT 2014 English-to-German"],
+    "requires_pdf": true
+  },
+  {
+    "id": "eval_05",
+    "category": "conflicting_sources",
+    "query": "Compare reported benchmark BLEU scores across different hardware setups and training durations.",
+    "expected_claims": ["3.5 days", "8 P100 GPUs"],
+    "requires_pdf": false
+  },
+  {
+    "id": "eval_06",
+    "category": "missing_evidence",
+    "query": "Verify whether Transformers achieve 99.9% accuracy on quantum molecular dynamics forecasting.",
+    "expected_claims": ["unsupported claim"],
+    "requires_pdf": false
+  },
+  {
+    "id": "eval_07",
+    "category": "irrelevant_sources",
+    "query": "Analyze economic agricultural policy impacts on European grain production in 1920.",
+    "expected_claims": ["Agriculture"],
+    "requires_pdf": false
+  },
+  {
+    "id": "eval_08",
+    "category": "methodology_extraction",
+    "query": "Extract the mathematical formulation and key steps of multi-head self-attention.",
+    "expected_claims": ["Query", "Key", "Value", "Softmax"],
+    "requires_pdf": true
+  },
+  {
+    "id": "eval_09",
+    "category": "limitations_analysis",
+    "query": "Identify major computational limitations and memory bottlenecks in self-attention models.",
+    "expected_claims": ["Quadratic complexity", "Memory bottleneck"],
+    "requires_pdf": true
+  },
+  {
+    "id": "eval_10",
+    "category": "dataset_evaluation",
+    "query": "Compare training datasets and BLEU score evaluation metrics used in translation benchmarks.",
+    "expected_claims": ["WMT 2014 En-De", "WMT 2014 En-Fr"],
+    "requires_pdf": true
+  },
+  {
+    "id": "eval_11",
+    "category": "different_domain_medical",
+    "query": "Search for deep learning models applied to genomic sequence alignment and protein folding prediction.",
+    "expected_claims": ["AlphaFold", "Genomic sequences"],
+    "requires_pdf": false
+  },
+  {
+    "id": "eval_12",
+    "category": "different_domain_robotics",
+    "query": "Identify recent advances in reinforcement learning for quadruped robot locomotion.",
+    "expected_claims": ["Locomotion", "Policy Gradient"],
+    "requires_pdf": false
+  },
+  {
+    "id": "eval_13",
+    "category": "long_document_processing",
+    "query": "Perform an end-to-end literature review on long-context sequence modeling.",
+    "expected_claims": ["Longformer", "State Space Models", "Mamba"],
+    "requires_pdf": false
+  },
+  {
+    "id": "eval_14",
+    "category": "unsupported_claim_detection",
+    "query": "Verify if the paper claims zero-shot cross-lingual translation without parallel corpora.",
+    "expected_claims": ["Zero-shot"],
+    "requires_pdf": false
+  },
+  {
+    "id": "eval_15",
+    "category": "citation_correctness",
+    "query": "Generate a fully cited literature summary comparing ByteNet, ConvS2S and Transformer models.",
+    "expected_claims": ["ByteNet", "ConvS2S", "Transformer"],
+    "requires_pdf": true
+  }
+]
